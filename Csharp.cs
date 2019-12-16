@@ -1,5 +1,5 @@
 using System;
-// I am learning C#
+
 namespace tutorial{
     class Program {
         static void Main(string[] args) {
@@ -34,7 +34,24 @@ namespace tutorial{
             // TO LOWER CASE 
             string HAHAH = "HAHAHA";
             string H = HAHAH.ToLower();
-            Console.WriteLine($"This Is Lower CaSe : {H} ");
+            Console.WriteLine($"This Is Lower Case : {H} ");
+
+
+            Loop();
         }
+
+        public static void Loop() {
+            int i = 1;
+            string LTT = "LOWER THAN TEN";
+            string HTT = "HIGHER THAN TEN";
+            if (i < 10)
+            {
+                Console.WriteLine($"The Interger \"i\" is : {i}, {LTT}");
+            }
+            else {
+                Console.WriteLine($"The Interger \"i\" is : {i}, {HTT}");
+            }
+        }
+     
     }
 }
